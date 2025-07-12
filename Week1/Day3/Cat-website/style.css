@@ -1,0 +1,23 @@
+.catsense {
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+ul {
+    margin-left: 20px;
+}
+ .mediatxt {
+   text-align: center;
+ }
+ .catimage {
+    text-align: center;
+    
+ }
+
+ .catimage img {
+    border-style: solid;
+    border-color: red;
+ }
+ .characteristics {
+    text-align: center;
+ }
