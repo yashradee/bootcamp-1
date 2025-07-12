@@ -1,0 +1,91 @@
+nav {
+
+    padding: 16px;
+    background-color: #d2ebe7;
+}
+
+.name {
+    position: absolute;
+     top: 0px;
+    left: 53px;
+}
+.signin {
+    position: absolute;
+    right: 47px;
+    top: 15px;
+    background-color: #6d8986;
+    border-radius: 10%;
+}
+.signin a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.signin a:hover {
+    color: #4db38b;
+}
+.headertext {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 91px;
+    color: #e5e6eb;
+    font-size: 24px;
+    text-align: center;
+}
+.signinform {
+    position: absolute;
+    top: 378px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 238px;
+    background-color: #6d8986;
+    padding: 18px;
+    border-radius: 10px
+}
+.icon1 {
+    position: relative;
+    left: 93px;
+    bottom: -37px;
+    top: -9px;
+   
+}
+
+i {
+   
+    color: #274e49;
+        font-size: 60px
+        
+        
+} 
+.icon2 {
+       position: relative;
+    /* left: 904px; */
+    top: -169px;
+    /* transform: translateX(-50%); */
+    text-align: center;
+}
+
+.icon3 {
+   
+    position: absolute;
+    left: 80%;
+    top: 704px;
+    transform: translateX(-50%);
+    
+}
+.icon3 p {
+    text-align: center;
+}
+.icon3 h2 {
+    text-align: center;
+}
+.icon3 i{
+    position: relative;
+    right: -100px;
+}
+
+.all-icons {
+    background-color: #6d8986;
+    padding: 69px;
+}
