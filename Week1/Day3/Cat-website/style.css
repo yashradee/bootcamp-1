@@ -18,6 +18,20 @@ ul {
     border-style: solid;
     border-color: red;
  }
- .characteristics {
+ .Characteristics {
+    border-color:red;
     text-align: center;
+    border-style:solid
  }
+ table, th, td {
+  border: 1px solid black;
+  
+}
+
+.lionimage {
+    text-align: center;
+}
+.lionimage img {
+    border-style: solid;
+    border-color: red;
+}
