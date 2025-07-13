@@ -21,12 +21,69 @@ nav {
 .nav-link a:hover {
     color: #888181;
 }
-.frist-rowpoduct {
-     display: grid;
-     grid-template-columns: auto auto auto;
-     padding: 36px;
+/* .frist-rowpoduct {
+     /* display: grid;
+     grid-template-columns: auto auto auto; */
+     /* padding: 36px;
      position: relative;
-     right: 11px;
+     right: 11px; */
+.product1 {
+   /* display: inline-block; */
+    margin: 10px;
+    position: relative;
+    right: 21%;
+    top: 36px;
+}
+.product2 {
+   
+    margin: 10px;
+    position: absolute;
+    right: 42%;
+    top: 24%;
+}
+.product3 {
+    margin: 10px;
+    position: absolute;
+    right: 22%;
+    top: 24%;
+}
+
+.kidpro1 {
+   
+    margin: 10px;
+    position: relative;
+    right: 21%;
+    top: 35px;
+}
+.kidpro2 {
+    margin: 10px;
+    position: absolute;
+    right: 42%;
+    top: 119%;
+}
+
+.kidpro3 {
+    margin: 10px;
+    position: absolute;
+    right: 22%;
+    top: 119%;
+}
+.productwoman1 {
+   margin: 10px;
+    position: relative;
+    right: 21%;
+}
+.productwoman2 {
+   margin: 10px;
+    position: relative;
+    left: -13px;
+    bottom: 482px;
+}
+.productwoman3 {
+    margin: 10px;
+    position: relative;
+    bottom: 964px;
+    left: 282px;
 }
 .frist-rowpoduct > div {
   padding: 10px;
@@ -62,8 +119,8 @@ h2 {
     border: rgb(0, 183, 255) solid;
     border-radius: 50%;
     position: relative;
-    top: 112px;
-    left: 227px;
+    top: 104px;
+    left: 145px;
     height: 40px;
     width: 40px;
     background-color: rgb(0, 183, 255);
@@ -72,8 +129,8 @@ h2 {
     border: red solid;
     border-radius: 50%;
     position: relative;
-    top: 63px;
-    left: 84px;
+    top: 56px;
+    left: 7px;
     height: 40px;
     width: 40px;
     background-color: red;
@@ -126,3 +183,7 @@ footer {
     text-align: center;
 }
 
+.inline1 {
+    display: inline-block;
+    width: 100%;
+}
