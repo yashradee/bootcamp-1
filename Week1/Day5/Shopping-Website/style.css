@@ -1,0 +1,128 @@
+nav {
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    padding: 10px 20px;
+    background-color: #030303;
+}
+.nav-logo {
+    font-size: 24px;
+    color: #fff;
+}
+.nav-link {
+   font-size: 18px;
+   position: absolute;
+   right: 52px;
+}
+.nav-link a {
+    color: #fff;
+    text-decoration: none;
+}
+.nav-link a:hover {
+    color: #888181;
+}
+.frist-rowpoduct {
+     display: grid;
+     grid-template-columns: auto auto auto;
+     padding: 36px;
+     position: relative;
+     right: 11px;
+}
+.frist-rowpoduct > div {
+  padding: 10px;
+  text-align: center;
+}
+.price1 {
+    text-decoration: line-through;
+    color: #888181;
+    position: relative;
+    left: 40px;
+    bottom: 33px;
+    font-size: 13px;
+}
+.pricepromo {
+    color: #227acc;
+    position: relative;
+    left: -10px;
+}
+.button-add {
+    padding: 10px 20px;
+    position: relative;
+    bottom: 29px;
+}
+h2 {
+    text-align: center;
+    font-size: 34px;
+    color: #000000;
+    margin-bottom: -9px;
+    position: relative;
+    left: -8px;
+}
+.badge-new {
+    border: rgb(0, 183, 255) solid;
+    border-radius: 50%;
+    position: relative;
+    top: 112px;
+    left: 227px;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(0, 183, 255);
+}
+.badge-dis {
+    border: red solid;
+    border-radius: 50%;
+    position: relative;
+    top: 63px;
+    left: 84px;
+    height: 40px;
+    width: 40px;
+    background-color: red;
+}
+.discount-txt {
+    position: relative;
+    top: -3px;
+}
+.txt-new {
+    position: relative;
+    top: -3px;
+}
+
+.badge-newkid {
+    border: rgb(0, 183, 255) solid;
+    border-radius: 50%;
+    position: relative;
+    top: 63px;
+    left: 232px;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(0, 183, 255);
+}
+
+.txt-newkid {
+    position: relative;
+    top: -3px;
+}
+
+.badge-new-woman {
+    border: rgb(0, 183, 255) solid;
+    border-radius: 50%;
+    position: relative;
+    top: 63px;
+    left: 232px;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(0, 183, 255);
+}
+.txt-new-woman {
+    position: relative;
+    top: -3px;
+}
+.h2-men {
+    position: relative;
+    top: 36px;
+}
+footer {
+    background-color: aliceblue;
+    text-align: center;
+}
+
