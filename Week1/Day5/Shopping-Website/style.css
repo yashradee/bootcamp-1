@@ -1,7 +1,6 @@
 nav {
-    display: flex;
-    /* justify-content: space-between; */
-    /* align-items: center; */
+    /* display: flex; */
+   
     padding: 10px 20px;
     background-color: #030303;
 }
@@ -21,91 +20,114 @@ nav {
 .nav-link a:hover {
     color: #888181;
 }
-/* .frist-rowpoduct {
-     /* display: grid;
-     grid-template-columns: auto auto auto; */
-     /* padding: 36px;
-     position: relative;
-     right: 11px; */
-.product1 {
-   /* display: inline-block; */
+.frist-rowpoduct {
+    height: 600px;
+}
+
+.product0 {
+    
     margin: 10px;
     position: relative;
-    right: 21%;
-    top: 36px;
+    right: 30%;
+    bottom: 550px;
+}
+.product1 {
+   
+    margin: 10px;
+    position: relative;
+    right: 10%;
+    top: 24px;
 }
 .product2 {
    
     margin: 10px;
-    position: absolute;
-    right: 42%;
-    top: 24%;
+    position: relative;
+    right: -10%;
+    bottom: 1131px;
 }
 .product3 {
     margin: 10px;
-    position: absolute;
-    right: 22%;
-    top: 24%;
+    position: relative;
+    left: 30%;
+    bottom: 1709px;
 }
 
-.kidpro1 {
-   
+
+.kidpro0 {
     margin: 10px;
     position: relative;
-    right: 21%;
-    top: 35px;
+    right: 30%;
+    bottom: 407px;
+}
+.kidpro1 {
+    margin: 10px;
+    position: relative;
+    right: 10%;
+    top: 78px;
 }
 .kidpro2 {
     margin: 10px;
-    position: absolute;
-    right: 42%;
-    top: 119%;
+    position: relative;
+    right: -10%;
+    bottom: 939px;
+}
+.kidpro3 {
+   margin: 10px;
+   position: relative;
+   left: 30%;
+   bottom: 1424px;
 }
 
-.kidpro3 {
-    margin: 10px;
-    position: absolute;
-    right: 22%;
-    top: 119%;
+
+.productwoman0 {
+     margin: 10px;
+    position: relative;
+        right: 30%;
+    bottom: 482px;
 }
 .productwoman1 {
-   margin: 10px;
+     margin: 10px;
     position: relative;
-    right: 21%;
+    right: 10%;
+    top: 49px;
 }
 .productwoman2 {
    margin: 10px;
     position: relative;
-    left: -13px;
-    bottom: 482px;
+    left: 133px;
+    bottom: 1014px;
 }
 .productwoman3 {
-    margin: 10px;
+     margin: 10px;
     position: relative;
-    bottom: 964px;
-    left: 282px;
+    bottom: 1545px;
+    left: 398px;
 }
 .frist-rowpoduct > div {
   padding: 10px;
   text-align: center;
+ 
 }
+
 .price1 {
     text-decoration: line-through;
     color: #888181;
     position: relative;
-    left: 40px;
-    bottom: 33px;
-    font-size: 13px;
+    left: 41px;
+    bottom: 53px;
+    font-size: 15px;
 }
 .pricepromo {
     color: #227acc;
     position: relative;
-    left: -10px;
+    left: -15px;
+    top: -17px;
+    font-size: 17px;
 }
 .button-add {
     padding: 10px 20px;
     position: relative;
-    bottom: 29px;
+    bottom: 51px;
 }
 h2 {
     text-align: center;
@@ -119,18 +141,18 @@ h2 {
     border: rgb(0, 183, 255) solid;
     border-radius: 50%;
     position: relative;
-    top: 104px;
-    left: 145px;
+    top: 101px;
+    left: 705px;
     height: 40px;
     width: 40px;
-    background-color: rgb(0, 183, 255);
+    background-color: rgb(0, 183, 255)
 }
 .badge-dis {
     border: red solid;
     border-radius: 50%;
     position: relative;
-    top: 56px;
-    left: 7px;
+    top: 57px;
+    left: 547px;
     height: 40px;
     width: 40px;
     background-color: red;
@@ -147,13 +169,14 @@ h2 {
 .badge-newkid {
     border: rgb(0, 183, 255) solid;
     border-radius: 50%;
-    position: relative;
-    top: 63px;
-    left: 232px;
+    position: absolute;
+    top: 19px;
+    right: 42%;
     height: 40px;
     width: 40px;
     background-color: rgb(0, 183, 255);
 }
+
 
 .txt-newkid {
     position: relative;
@@ -164,8 +187,8 @@ h2 {
     border: rgb(0, 183, 255) solid;
     border-radius: 50%;
     position: relative;
-    top: 63px;
-    left: 232px;
+    top: 57px;
+    left: 709px;
     height: 40px;
     width: 40px;
     background-color: rgb(0, 183, 255);
@@ -186,4 +209,10 @@ footer {
 .inline1 {
     display: inline-block;
     width: 100%;
+}
+
+
+.img-p-txt {
+   font-size: 20px;
+    color: #000000;
 }
