@@ -20,88 +20,84 @@ nav {
 .nav-link a:hover {
     color: #888181;
 }
+@media screen and (max-width: 768px) {
+    .frist-rowpoduct {
+   align-items: center;
+}
+    
+}
 .frist-rowpoduct {
     height: 600px;
+  position: relative;
+    left: 342px;
 }
 
 .product0 {
     
-    margin: 10px;
-    position: relative;
-    right: 30%;
-    bottom: 550px;
+ 
+   position: relative;
+    float: left;
+ 
+    padding-left: 5px;
 }
 .product1 {
    
-    margin: 10px;
-    position: relative;
-    right: 10%;
-    top: 24px;
+ 
+   position: relative;
+    float: left;
+ 
+    padding-left: 5px;
 }
 .product2 {
    
-    margin: 10px;
-    position: relative;
-    right: -10%;
-    bottom: 1131px;
+   
+   position: relative;
+    float: left;
+   
+    padding-left: 5px;
 }
 .product3 {
-    margin: 10px;
-    position: relative;
-    left: 30%;
-    bottom: 1709px;
+   position: relative;
+    float: left;
+    padding-left: 5px;
 }
 
 
 .kidpro0 {
-    margin: 10px;
     position: relative;
-    right: 30%;
-    bottom: 407px;
+    float: left;
 }
 .kidpro1 {
-    margin: 10px;
+    
     position: relative;
-    right: 10%;
-    top: 78px;
+    float: left;
 }
 .kidpro2 {
-    margin: 10px;
     position: relative;
-    right: -10%;
-    bottom: 939px;
+    float: left;
+        bottom: 46px;
+
 }
 .kidpro3 {
-   margin: 10px;
-   position: relative;
-   left: 30%;
-   bottom: 1424px;
+  position: relative;
+    float: left;
 }
-
 
 .productwoman0 {
-     margin: 10px;
-    position: relative;
-        right: 30%;
-    bottom: 482px;
+      position: relative;
+    float: left;
 }
 .productwoman1 {
-     margin: 10px;
-    position: relative;
-    right: 10%;
-    top: 49px;
-}
+     position: relative;
+        float: left;
+    }
 .productwoman2 {
-   margin: 10px;
     position: relative;
-    left: 133px;
-    bottom: 1014px;
-}
+            float: left;
+        }
 .productwoman3 {
-     margin: 10px;
-    position: relative;
-    bottom: 1545px;
-    left: 398px;
+     position: relative;
+            float: left;
 }
 .frist-rowpoduct > div {
   padding: 10px;
@@ -141,8 +137,8 @@ h2 {
     border: rgb(0, 183, 255) solid;
     border-radius: 50%;
     position: relative;
-    top: 101px;
-    left: 705px;
+    top: 110px;
+    left: 176px;
     height: 40px;
     width: 40px;
     background-color: rgb(0, 183, 255)
@@ -152,7 +148,7 @@ h2 {
     border-radius: 50%;
     position: relative;
     top: 57px;
-    left: 547px;
+    left: 8px;
     height: 40px;
     width: 40px;
     background-color: red;
@@ -170,8 +166,8 @@ h2 {
     border: rgb(0, 183, 255) solid;
     border-radius: 50%;
     position: absolute;
-    top: 19px;
-    right: 42%;
+    top: 47px;
+    right: 16%;
     height: 40px;
     width: 40px;
     background-color: rgb(0, 183, 255);
@@ -186,9 +182,9 @@ h2 {
 .badge-new-woman {
     border: rgb(0, 183, 255) solid;
     border-radius: 50%;
-    position: relative;
-    top: 57px;
-    left: 709px;
+   position: relative;
+    top: 52px;
+    left: 174px;
     height: 40px;
     width: 40px;
     background-color: rgb(0, 183, 255);
@@ -216,3 +212,20 @@ footer {
    font-size: 20px;
     color: #000000;
 }
+.fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    color: red;}
+
+    .frist-rowpoduct > div {
+            padding: 39px;
+    text-align: center;
+ }
+@media screen and (max-width: 1400px) {
+    .frist-rowpoduct {
+        height: 600px;
+        position: relative;
+        left: 64px;
+    } 
+ } 
+ 
