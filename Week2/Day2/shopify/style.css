@@ -17,7 +17,9 @@ body {
     color: aquamarine;
     position: relative;
     right: 54px;
-    grid-column-gap: 161px;
+        column-gap: 194px;
+
+   
 }
 
 
@@ -32,70 +34,7 @@ body {
     font-size: 16px;
     color: rgb(255 255 255);
 }
-/* .testimonials {
-  display: flex;
-  gap: 20px;
-  padding: 40px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
 
-.testimonial {
-  background: #fff;
-  border-radius: 8px;
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-.testimonial .message {
-  padding: 20px;
-  font-size: 14px;
-  color: #333;
-}
-
-.person {
-  display: flex;
-  align-items: center;
-  background-color: #ff6f61; 
-  padding: 15px 20px;
-  border-radius: 0 0 8px 8px;
-  color: #fff;
-}
-
-.person img {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-right: 15px;
-  border: 2px solid #fff;
-}
-
-.person h3 {
-  margin: 0;
-  font-size: 16px;
-}
-
-.person p {
-  margin: 4px 0 0;
-  font-size: 13px;
-  opacity: 0.9;
-}
-
-.testimonial:nth-child(1) .person {
-  background-color: #ff6f61; 
-}
-
-.testimonial:nth-child(2) .person {
-  background-color: #3f51b5; 
-}
-
-.testimonial:nth-child(3) .person {
-  background-color: #00bfa5; 
-} */
 .testimonials {
   display: flex;
   gap: 20px;
