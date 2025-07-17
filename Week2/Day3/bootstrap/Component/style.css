@@ -1,0 +1,35 @@
+.container-fluid {
+ padding: 11px 138px;
+background-color: #0d0e0e;
+}
+.container-fluid a {
+    color: #a09b9b;
+    text-decoration: none;
+}
+
+.d-flex {
+    padding: 0 113px;
+}
+
+.floatingInput1 {
+   padding: 0 2px;
+}
+
+.floatingPassword1 {
+   padding: 0 2px;
+}
+.btn{
+    color: #a09b9b; 
+}
+#home{
+    color: #a09b9b;
+    
+}
+#jumbo {
+    padding: 0 113px;
+}
+
+#txtlearn-more {
+ color: #ffffff;
+}
+
