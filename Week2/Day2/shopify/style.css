@@ -39,8 +39,8 @@ body {
   display: flex;
   gap: 20px;
   padding: 40px;
-  justify-content: center;
-      column-gap: 226px;
+  justify-content: space-around;
+     
 
 }
 
