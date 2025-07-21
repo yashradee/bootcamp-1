@@ -1,16 +1,27 @@
+body {
+   
+    
+    background-color:#2e4632;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
 .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    background-color: #5a9eaa;
+    background-color: #2d4e34;
+   
 }
 
 .nav-logo {
     display: flex;
     justify-content: center;
     margin-left: 115px;
-    color: white;
+    color: rgb(236, 236, 236);
 }
 .name{
     font-size: 24px;
@@ -29,14 +40,14 @@
 }
 
 .nav-container a {
-    color: white;
+    color: rgb(231, 231, 231);
     text-decoration: none;
     padding: 10px 20px;
     font-size: 16px;
 }
 
 .nav-link-contact {
-    background-color: #4a8c9d;
+    background-color: #30644e;
     border-radius: 5px;
 }
 
@@ -54,9 +65,11 @@
 
 .dropdown-btn {
     padding: 10px 20px;
-    background-color:  #5a9eaa;
+    background-color:   #30644e;
     color: white;
+   
     border: none;
+    border-radius: 5px;
 }
 
 .dropdown-content {
@@ -85,8 +98,61 @@
 }
 
 .header-content {
-    margin-top: 124px;
-    color: #333;
+    color: #ffffff;
     text-align: center;
+    width: 100%;
+    height: 800px;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.txthero1 {
+   
+    color: #ffffff;
+    padding: 156px 0px 126px 0px;
+
+}
+
+.imgdeco {
+    position: fixed;
+}
+.imgdeco1 {
+    position: fixed;
+    float: left;
+    padding: 0px 0px 0px 1626px;
+}
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+   
+    background-color: rgba(255, 255, 255, 0.12);
+  
+}
+#cards {
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    
+}
+.fa-brands {
+    
+    font-size: 59px;
+}
+
+.card-content {
+    color: #ffffff;
+}
+.h2-section1 {
+    text-align: center;
+    padding: 127px 0 0 0;
+    color: #ffffff;
+    text-decoration: underline;
+}
+.p-section1 {
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
 }
 
