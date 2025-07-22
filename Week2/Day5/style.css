@@ -115,11 +115,13 @@ nav {
 
 .imgdeco {
     position: fixed;
+     padding: 232px 1584px 0 0px; 
 }
 .imgdeco1 {
     position: fixed;
     float: left;
-    padding: 0px 0px 0px 1626px;
+    padding: 19px 0 1px 82%;
+ 
 }
 .card {
     background-color: #ffffff;
@@ -155,4 +157,22 @@ nav {
     color: #ffffff;
     text-decoration: none;
 }
+
+ @media screen and (max-width: 1400px) {
+    .imgdeco {
+   position: fixed;
+        padding-left: 26%;
+        padding-top: 23px;
+
+
+}
+
+    .imgdeco1 {
+    position: fixed;
+    padding: 0px 2px 0px 83%;
+    
+    }
+} 
+
+ 
 
