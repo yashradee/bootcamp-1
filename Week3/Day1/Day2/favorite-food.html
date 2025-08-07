@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>favorite food</title>
+    <script>
+
+        // --------------------------EX1-------------------------------
+        let favoriteFood = "burger"
+        let favoriteMeal = "lunch"
+        console.log("I eat " + favoriteFood + " at every " + favoriteMeal);
+
+
+        // --------------------------EX2-------------------------------
+
+        // const myWatchedSeries = ["black mirror", "money heist", "the big bang theory"];
+        // console.log(myWatchedSeries.length)
+
+
+         // --------------------------EX2---part2---------------------------
+
+        // let myWatchedSeriesSentence = "black mirror, money heist, and the big bang theory";
+        // console.log(myWatchedSeriesSentence);
+        // console.log("I watched 3 series : " + myWatchedSeriesSentence);
+
+        
+       const myWatchedSeriesSentence = ["black mirror", "money heist", "the big bang theory"]
+        // myWatchedSeriesSentence.push("friends")
+        // myWatchedSeriesSentence.splice(2,1)
+        myWatchedSeriesSentence[2] = "friends"
+        myWatchedSeriesSentence.push("Shameless")
+        myWatchedSeriesSentence.push("simpson")
+        myWatchedSeriesSentence.unshift("Prison Break"); 
+        let index = myWatchedSeriesSentence.indexOf("black mirror");
+        myWatchedSeriesSentence.splice(1,1)
+
+        let myWatchedSeries = "money heist"
+        console.log(myWatchedSeries[2]);
+
+      // --------------------------EX3------------------------------
+
+
+      let celsius = 35
+      let fahrenheit = (celsius / 5) * 9 + 35;
+      console.log(`${celsius} is ${fahrenheit}.`);
+
+
+
+       // --------------------------EX4------------------------------
+
+        let c;
+            let a = 34;
+            let b = 21;
+
+            console.log(a + b) //first expression
+            // Prediction:  It will output 5, because a (34) + b (21) 
+            // Actual: 55
+
+
+            a = 2;
+
+            console.log(a + b) //second expression
+            // Prediction: It will output 2, because a (2) + b (THERE IS NO B FOR second expression) 
+            // Actual: 23
+
+              console.log(c)
+              // Prediction: It will output N/A, because there is no value 
+            // Actual: undefined
+
+            console.log(3 + 4 + '5');
+             // Prediction: It will output 75, because 3 and 4 are numbers and 5 is in " " which identify it as a string -
+             // - so it will add 3+4 which =7 infront of 5 which will = 75 
+            // Actual: 75
+
+
+         // --------------------------EX5------------------------------
+         typeof(15)
+// Prediction: numeric  15 is a number
+// Actual: number
+console.log(typeof(15));
+
+typeof(5.5)
+// Prediction: number  5.5 is a number
+// Actual:number
+console.log(typeof(5.5));
+
+typeof(NaN)
+// Prediction: string sequence of characters
+// Actual:number
+console.log(typeof(NaN));
+
+
+typeof("hello")
+// Prediction:string  hello sequence of characters and are in " "
+// Actual:string
+console.log(typeof("hello"));
+
+typeof(true) 
+// Prediction:string true is sequence of characters
+// Actual:boolean
+console.log(typeof(true));
+
+typeof(1 != 2)
+// Prediction:true 1 is not equal to  2
+// Actual:boolean
+console.log(typeof(1 != 2));
+
+"hamburger" + "s" 
+// Prediction:hamburgers    hamburger + s = hamburgers it will add s to the end because it is a string
+// Actual:hamburgers
+console.log("hamburger" + "s");
+
+"hamburgers" - "s"
+// Prediction:hamburger
+// Actual:NaN
+console.log("hamburgers" - "s");
+
+
+"1" + "3"
+// Prediction: 1 and 3 both ar strings  = 13
+// Actual:13
+console.log("1" + "3");
+
+"1" - "3"
+// Prediction: will cause error
+// Actual: -2
+console.log("1" - "3");
+
+"johnny" + 5
+// Prediction: johnny5 it will convert the other side to a string and add it
+// Actual: johnny5
+console.log("johnny" + 5);
+
+"johnny" - 5
+// Prediction: error
+// Actual:NaN
+console.log("johnny" - 5);
+
+99 * "hello"
+// Prediction:NaN  cannot multiply a string and a number
+// Actual:NaN
+console.log(99 * "hello");
+
+1 != 1
+// Prediction: flase  1 is equal to 1
+// Actual:Flase
+console.log(1 != 1);
+
+1 == "1"
+// Prediction: 
+// Actual: true
+console.log(1 == "1");
+
+
+1 === "1"
+// Prediction: 
+// Actual:Flase
+console.log(1 === "1");
+
+// -------------------------ex6--------------------------------------
+
+
+5 + "34"
+// Prediction: 534  5 is a number and 34  string  
+// Actual:534
+console.log(5 + "34");
+
+5 - "4"
+// Prediction: 1 js will convert "4" to a number and minus it = 1
+// Actual:1
+console.log(5 - "4");
+
+10 % 5
+// Prediction:
+// Actual:
+console.log(10 % 5);
+
+5 % 10
+// Prediction:
+// Actual:
+console.log(5 % 10);
+
+" " + " "
+// Prediction: space  there is nothing it the 
+// Actual:   
+console.log(" " + " ");
+
+" " + 0
+// Prediction: 0   "  "  will cause space and will and 0 which is a number
+// Actual:0
+console.log(" " + 0);
+
+true + true
+// Prediction: 2 true = 1   flase = 0 so  true + true = 2
+// Actual:2
+console.log(true + true);
+
+true + false
+// Prediction: 1 true = 1   flase = 0 so  true + flase  = 1
+// Actual:1
+console.log(true + false);
+
+false + true 
+// Prediction: 1 true = 1   flase = 0 so  flase + true = 1
+// Actual:1
+console.log(false + true);
+
+false - true
+// Prediction:1  true = 1   flase = 0 so  flase + true = 1
+// Actual: -1
+console.log(false - true);
+
+!true
+// Prediction: 
+// Actual: flase
+console.log(!true);
+
+3 - 4
+// Prediction: -1 both are numbers
+// Actual: -1
+console.log(3 - 4);
+
+
+
+    </script>
+</head>
+
+<body>
+    <h1>Your favorite food</h1>
+</body>
+
+</html>
