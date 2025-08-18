@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+       const people = ["Greg", "Mary", "Devon", "James"];
+       people.shift();
+       console.log(people);
+       const index = people.indexOf("James");
+       console.log(people.indexOf("James"))
+
+
+       if (index !==-1){
+        people[2]= "jason";
+       }
+       console.log(people)
+
+       people.push("yash");
+     console.log(people)
+
+     const maryIndex = people.indexOf("Mary");
+     console.log(maryIndex)
+
+
+    const copy = people.slice(1, 3);
+         console.log(people.slice(1, 3))
+
+
+
+
+
+const indexOfFoo = people.indexOf("Foo");
+
+console.log(indexOfFoo); 
+
+
+
+const last = people[people.length - 1];
+
+console.log(last); 
+
+
+for (let i = 0; i < people.length; i++) {
+  console.log(people[i]);
+}
+
+for (let i = 0; i < people.length; i++) {
+  console.log(people[i]);
+  
+  if (people[i] === "Devon") {
+    break; // exit loop here
+  }
+}
+
+         
+const colors = ["blue", "red", "green", "yellow", "purple"];
+
+for (let i = 0; i < colors.length; i++) {
+  console.log(`My #${i + 1} choice is ${colors[i]}`);
+}
+
+
+const suffixes = ["st", "nd", "rd", "th", "th"];
+
+for (let i = 0; i < colors.length; i++) {
+  console.log(`My ${i + 1}${suffixes[i]} choice is ${colors[i]}`);
+}
+
+
+
+
+// -----------------------------------ex3----------------------
+
+// -----------------------------------ex3----------------------
+
+
+// -----------------------------------ex3----------------------
+
+
+
+// -----------------------------------ex3----------------------
+
+// -----------------------------------ex3----------------------
+
+
+
+
+
+
+
+
+
+const building = {
+    numberOfFloors: 4,
+    numberOfAptByFloor: {
+        firstFloor: 3,
+        secondFloor: 4,
+        thirdFloor: 9,
+        fourthFloor: 2,
+    },
+    nameOfTenants: ["Sarah", "Dan", "David"],
+    numberOfRoomsAndRent:  {
+        sarah: [3, 990],
+        dan:  [4, 1000],
+        david: [1, 500],
+    },
+}
+
+
+console.log(building.numberOfFloors); 
+
+console.log(building.numberOfAptByFloor.firstFloor); 
+console.log(building.numberOfAptByFloor.thirdFloor); 
+
+const secondTenant = building.nameOfTenants[1]; 
+const danRooms = building.numberOfRoomsAndRent.dan[0]; 
+console.log(`${secondTenant} has ${danRooms} rooms.`);
+
+const sarahRent = building.numberOfRoomsAndRent.sarah[1];
+const davidRent = building.numberOfRoomsAndRent.david[1]; 
+const danRent = building.numberOfRoomsAndRent.dan[1]; 
+
+if ((sarahRent + davidRent) > danRent) {
+    building.numberOfRoomsAndRent.dan[1] = 1200;
+}
+
+console.log(`Dan's rent is now: ${building.numberOfRoomsAndRent.dan[1]}`); 
+
+
+
+
+
+
+
+
+// =============================ex5================================
+
+
+
+const family = {
+  father: "John",
+  mother: "Jane",
+  daughter: "Emily",
+  son: "Michael"
+};
+
+for (let key in family) {
+  console.log(key);
+}
+
+for (let key in family) {
+  console.log(family[key]);
+}
+
+// =============================ex6================================
+
+
+
+const details = {
+  my: 'name',
+  is: 'Rudolf',
+  the: 'reindeer'
+};
+
+let sentence = '';
+
+for (let key in details) {
+  sentence += key + ' ' + details[key] + ' ';
+}
+
+console.log(sentence.trim()); 
+
+
+
+
+// =============================ex6================================
+
+const names = ["Jack", "Philip", "Sarah", "Amanda", "Bernard", "Kyle"];
+
+const firstLetters = names.map(name => name[0]);
+
+firstLetters.sort();
+
+const societyName = firstLetters.join('');
+
+console.log(societyName);
+
+    </script>
+</head>
+
+<body>
+    <h1>Exercises XP
+    </h1>
+</body>
+
+</html>
